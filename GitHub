@@ -53,5 +53,5 @@ int main()
    myObj.non_return_method("\n Silahkan datang kembali");
    getch();
 }
-(kevin)
+
 
