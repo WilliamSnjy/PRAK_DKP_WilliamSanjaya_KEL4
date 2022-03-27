@@ -32,4 +32,26 @@ int main()
     cout << " metode tersebut tidak tersedia saat ini \n";
     cout << " Silahkan coba kembali ";
     cin >> pilihan;
+     }
+   if (pilihan == 1){
+    cout << "\n Anda telah memilih menggunakan tunai ";
+    cout << " Silahkan langsung bayar di kasir ";
+   }
+   else if (pilihan == 2){
+    cout << "\n Anda telah memilih menggunakan transfer \n";
+    cout << " Silahkan transfer ke rekening BCA (012301230123) an Minimarket Berkah";
+   }
+   else if (pilihan == 3){
+    cout << "\n Anda telah memilih menggunakan gopay \n";
+    cout << " Silahkan Scan barcode Gopay ";
+   }
+   else if (pilihan == 4){
+    cout << "\n Anda telah memilih menggunakan Ovo \n";
+    cout << " Silahkan scan barcode Ovo ";
+   }
+   myClass myObj;
+   myObj.non_return_method("\n Silahkan datang kembali");
+   getch();
+}
+(kevin)
 
